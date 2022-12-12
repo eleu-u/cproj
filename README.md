@@ -3,7 +3,7 @@ cproj essentially works as a more convinient way to copy folders from a "templat
 
 cproj is meant to be cross-platform as some of this was written while i still used windows but i've changed a small amount of stuff so im not too sure if it'd work on windows (i havent tested it)
 
-if you actually compile this, make sure to change the TEMPLATES_PATH macro in main.c
+if you actually compile this for some reason, make sure to change the TEMPLATES_PATH macro in main.c
 
 # usage
 
