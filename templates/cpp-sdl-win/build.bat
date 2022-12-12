@@ -1,0 +1,1 @@
+g++ -c src/*.cpp -std=c++17 -g -Wall -m64 -I include && g++ *.o -o bin/debug/main -L include/SDL2/lib -lmingw32 -lSDL2main -lSDL2_image

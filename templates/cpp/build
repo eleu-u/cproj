@@ -1,0 +1,1 @@
+g++ src/main.cpp -m64 -std=c++17 -Wall -O3 -I src -o main

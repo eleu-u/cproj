@@ -1,0 +1,1 @@
+gcc src/main.c -m64 -std=c99 -Wall -O3 -I src -o main -pthread -ldiscord -lcurl

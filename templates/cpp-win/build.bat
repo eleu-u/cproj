@@ -1,0 +1,1 @@
+g++ -c src/*.cpp -std=c++17 -g -Wall -m64 -I include && g++ *.o -o bin/debug/main -lmingw32
