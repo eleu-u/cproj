@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// go to https://github.com/eleu-u/stdx for the source of these libraries
 #include "stdx/stringx.h"
 #include "stdx/iox.h"
 
