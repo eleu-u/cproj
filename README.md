@@ -7,40 +7,32 @@ if you actually compile this for some reason, make sure to change the TEMPLATES_
 
 # usage
 
-copies a folder from the templates path and renames it (if the template argument is not provided, "c" will be used)
-
-example:
-
 ```sh
 cproj new hello_world cpp 
 ```
 
+copies a folder from the templates path and renames it (if the template argument is not provided, "c" will be used)
+
 #
 
-runs the build/build.bat script that is in the current working directory
-
-example:
 ```sh
 cproj build
 ```
+runs the build/build.bat script that is in the current working directory
 
 #
 
-runs the build shell script and then runs ./main or main.exe
-
-example:
 ```sh
 cproj run
 ```
+runs the build shell script and then runs ./main or main.exe
 
 #
 
-this literally just runs ls/dir in the TEMPLATES_PATH
-
-example:
 ```sh
 cproj list
 ```
+this literally just runs ls/dir in the TEMPLATES_PATH
 
 example output:
 ```sh
