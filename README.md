@@ -9,7 +9,7 @@ if you actually compile this for some reason, make sure to change the TEMPLATES_
 
 copies a folder from the templates path and renames it (if the template argument is not provided, "c" will be used)
 
-new project example:
+example:
 
 ```sh
 cproj new hello_world cpp 
@@ -19,7 +19,7 @@ cproj new hello_world cpp
 
 runs the build/build.bat script that is in the current working directory
 
-build example:
+example:
 ```sh
 cproj build
 ```
@@ -28,7 +28,7 @@ cproj build
 
 runs the build shell script and then runs ./main or main.exe
 
-run example:
+example:
 ```sh
 cproj run
 ```
@@ -37,7 +37,7 @@ cproj run
 
 this literally just runs ls/dir in the TEMPLATES_PATH
 
-list example:
+example:
 ```sh
 cproj list
 ```
