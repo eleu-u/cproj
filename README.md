@@ -24,7 +24,7 @@ cproj build
 
 #
 
-run projects with the "cproj run" command, this runs the build shell script and then runs the output executable
+run projects with the "cproj run" command, this runs the build shell script and then runs ./main/main.exe
 
 run example:
 ```sh
