@@ -5,7 +5,7 @@ if you actually compile this, make sure to change the TEMPLATES_PATH macro in ma
 
 # usage
 
-basically copies a folder from the templates path and renames it
+copies a folder from the templates path and renames it
 
 new project example:
 
@@ -15,7 +15,7 @@ cproj new hello_world cpp
 
 #
 
-literally only runs the build/build.bat script that is in the current working directory
+runs the build/build.bat script that is in the current working directory
 
 build example:
 ```sh
