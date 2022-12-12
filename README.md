@@ -5,7 +5,7 @@ if you actually compile this, make sure to change the TEMPLATES_PATH macro in ma
 
 # usage
 
-create new projects with the "cproj new" command, this basically copies a folder from the templates path and renames them
+basically copies a folder from the templates path and renames it
 
 new project example:
 
@@ -15,7 +15,7 @@ cproj new hello_world cpp
 
 #
 
-build projects with the "cproj build" command, this literally only runs the build/build.bat script that is in the current working directory
+literally only runs the build/build.bat script that is in the current working directory
 
 build example:
 ```sh
@@ -24,7 +24,7 @@ cproj build
 
 #
 
-run projects with the "cproj run" command, this runs the build shell script and then runs ./main or main.exe
+runs the build shell script and then runs ./main or main.exe
 
 run example:
 ```sh
@@ -33,7 +33,7 @@ cproj run
 
 #
 
-list templates with the "cproj list" command, this literally just runs ls/dir in the TEMPLATES_PATH
+this literally just runs ls/dir in the TEMPLATES_PATH
 
 list example:
 ```sh
