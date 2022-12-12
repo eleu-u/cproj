@@ -7,7 +7,7 @@ if you actually compile this for some reason, make sure to change the TEMPLATES_
 
 # usage
 
-copies a folder from the templates path and renames it
+copies a folder from the templates path and renames it (if the template argument is not provided, "c" will be used)
 
 new project example:
 
