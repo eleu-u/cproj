@@ -1,5 +1,5 @@
 # about
-cproj essentially works as a more convinient way to copy folders from the "templates" folder, which all include a build shell script which is used by cproj
+cproj essentially works as a more convinient way to copy folders from a "templates" folder, which all include a build shell script which is used by cproj
 
 if you actually compile this, make sure to change the TEMPLATES_PATH macro in main.c
 
